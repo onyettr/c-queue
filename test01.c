@@ -1,23 +1,12 @@
-/*
+/**
  *****************************************************************************
  * 
  * MODULE: C Programming Examples
  *
- * $Header: $
- * $Archive:$
+ * @author   onyettr 
+ *
+ * PURPOSE: Test harness for C Queue
  * 
- * $Workfile: $
- *
- * $Author: Onyettr $
- *
- * NAME: Richard Onyett (STMicroelectronics,San Jose)
- * EMAIL: richard.onyett@st.com
- *
- * PURPOSE: Test harness for Stack.
- * 
- * $Revision:$
- * $History: $
- *
  ***************************************************************************** 
  */
 

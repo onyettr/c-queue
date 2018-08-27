@@ -1,21 +1,11 @@
-/*
+/**
  *****************************************************************************
  * MODULE: C Programming Examples
  *
- * $Header: $
- * $Archive:$
- * 
- * $Workfile: $
+ * @author onyettr 
+ * @file   queue.c
  *
- * $Author: Onyettr $
- *
- * EMAIL: 
- *
- * PURPOSE: Simple Stack implementation
- *
- * 
- * $Revision:$
- * $History: $
+ * PURPOSE: Simple Queue implementation
  ***************************************************************************** 
  */
 
@@ -79,8 +69,11 @@ void    qDump (Queue_t *pq);
 
 /**
  * @brief             test if queue is empty
+ *
  * @function          static int isEmpty(stack_t *pStack)
+ *
  * @param[in]         Queue *pg - Queue pointer
+ *
  * @return            BOOL        TRUE if empty, false otherwise
  */
 static bool isEmpty(Queue_t *pq) {
@@ -89,8 +82,11 @@ static bool isEmpty(Queue_t *pq) {
 
 /**
  * @brief             Create a new Queue
+ *
  * @function          Queue_t *qCreate(void) - Create a Queue
+ *
  * @param[in]         None
+ *
  * @return            Queue_t - pointer to new Queue
  */
 Queue_t *qCreate(void) {
@@ -108,8 +104,11 @@ Queue_t *qCreate(void) {
 
 /**
  * @brief             Create a new Node
+ *
  * @function          QNode_t qNewNode(int value)
+ *
  * @param[in]         int Value - for storage
+ *
  * @return            QNode_t * Pointer to a new node
  */
 QNode_t *qNewNode(int value) {
@@ -126,22 +125,32 @@ QNode_t *qNewNode(int value) {
 
 /**
  * @brief             Pull a node from a Queue
+ *
  * @function          QNode_t *qDeQueue(Queue_t *gp)
+ *
  * @param[in]         Queue_t *gp   Queue from which node is returned
+ *
  * @return            QNode_t * Pointer to the node
  */
 QNode_t *qDeQueue(Queue_t *qp) {
   QNode_t *pn = NULL;
 
+  /* TODO Implement */
+  
   return pn;
 }
 
 /**
  * @brief             Add a node to a Queue
+ *
  * @function          void    qEnQueue(Queue_t *qp, int value)
+ *
  * @param[in]         Queue_t *gp        Queue to add node
+ *
  * @param[in]         int      value     "data" to add to the node
+ *
  * @return            None
+ *
  * @note
  */
 void    qEnQueue(Queue_t *qp, int value) {
@@ -162,9 +171,13 @@ void    qEnQueue(Queue_t *qp, int value) {
 
 /**
  * @brief             Dump put the Queue details
+ *
  * @function          void qDump (Queue_t *pq) 
+ *
  * @param[in]         Queue_t *gp        Queue to print
+ *
  * @return            None
+ *
  * @note
  */
 void qDump (Queue_t *pq) {
